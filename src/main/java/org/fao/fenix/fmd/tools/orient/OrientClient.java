@@ -50,7 +50,7 @@ public class OrientClient {
         try {
             connection = objectPool.acquire(url, usr, psw);
             connection.setAutomaticSchemaGeneration(false);
-            connection.getEntityManager().registerEntityClasses("org.fao.fenix.commons.msd.dto.full");
+            connection.getEntityManager().registerEntityClasses("org.fao.fenix.fmd.storage.dto.full");
         } finally {
             if (connection!=null)
                 connection.close();

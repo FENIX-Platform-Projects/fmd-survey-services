@@ -4,10 +4,10 @@ import org.fao.fenix.fmd.storage.dto.templates.ResponseHandler;
 import org.codehaus.jackson.annotate.JsonProperty;
 
 
-public class TestBean extends ResponseHandler {
+public class Test extends ResponseHandler {
 
-    public TestBean() {}
-    public TestBean(Object source) {
+    public Test() {}
+    public Test(Object source) {
         super(source);
     }
 

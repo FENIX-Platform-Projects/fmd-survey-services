@@ -5,7 +5,7 @@ import org.codehaus.jackson.annotate.JsonProperty;
 
 import java.io.Serializable;
 
-public class TestBean extends JSONdto implements Serializable {
+public class Test extends JSONdto implements Serializable {
     
     private @JsonProperty String title;
     private @JsonProperty Boolean active;

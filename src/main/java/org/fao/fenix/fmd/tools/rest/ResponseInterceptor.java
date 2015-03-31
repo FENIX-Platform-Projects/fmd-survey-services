@@ -52,7 +52,7 @@ public class ResponseInterceptor implements ContainerResponseFilter {
 
     private String getRelativeURL (String url) {
         int offset = -1;
-        for (int i=0; i<5; i++)
+        for (int i=0; i<3; i++)
             offset = url.indexOf('/',offset+1);
         return url.substring(offset);
     }
